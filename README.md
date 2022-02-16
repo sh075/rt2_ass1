@@ -4,7 +4,7 @@
 # DESCRIPTION OF THE PACKAGE'S CONTENTS
 I have two packages and four scripts in this repository. rt2_ass and rt2_ass1 are the names of the two packages.The software ROS noetic is used to implement the package rt2_assignment. The rt2_ass1 package, on the other hand, was created using the ROS2 foxy software. I need the rt2 assignment package in a ros noetic workspace and another in a ros2 foxy workspace.
 
-It is necessary to have the ros1 bridge package installed in the ros2 foxy workspace in order to run this program. You may get this package from https://github.com/ros2/ros1 bidge.
+It is necessary to have the ros1 bridge package installed in the ros2 foxy workspace in order to run this program. You may get this package from https://github.com/ros2/ros1_bidge.
 ros.sh, ros2.sh, ros12.sh, and script.sh are the four scripts.
 
 I included two nodes in the rt2_assignment package: go to point.py and user interface.py. The go_to_point node implements the server that lets the robot to achieve a goal position by first rotating to direct the robot towards the goal position, then moving in a straight line to the goal, and finally rotating to obtain the goal orientation..
